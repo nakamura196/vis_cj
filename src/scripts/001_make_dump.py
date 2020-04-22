@@ -7,6 +7,7 @@ import sys
 import urllib.request
 import glob
 import yaml
+import os
 
 with open('../../.env.yml') as file:
     yml = yaml.load(file, Loader=yaml.SafeLoader)
@@ -31,30 +32,14 @@ for i in range(len(files)):
         with open(file) as f:
             df = json.load(f)
 
+            id = df["_id"]
+
+            path = yml["thumb_dir"] + "/" + id + ".jpg"
+
+            if not os.path.exists(path):
+                continue
+
             images = df["image"]
-
-            if len(images) == 0:
-                continue
-
-            '''
-            manifest_uri = manifest["@id"]
-
-            id = manifest_uri.split("/")[-2]
-
-            metadata = []
-
-            if "metadata" in manifest:
-
-                metadata_old = manifest["metadata"]
-
-                for obj in metadata_old:
-                    if obj["label"] == "資料種別":
-                        metadata.append(obj)
-
-            canvases = manifest["sequences"][0]["canvases"]
-            if len(canvases) == 0:
-                continue
-            '''
 
             metadata = [
                 {
@@ -63,31 +48,35 @@ for i in range(len(files)):
                 }
             ]
 
+            value = "None"
             if len(df["source_ja"]) > 0:
-                metadata.append({
-                    "label" : "収録データベース",
-                    "value" : df["source_ja"][0]
-                })
+                value = df["source_ja"][0]
+            metadata.append({
+                "label" : "収録データベース",
+                "value" : value
+            })
 
+            value = "None"
             if len(df["access_ja"]) > 0:
-                metadata.append({
-                    "label" : "所在（所蔵機関）",
-                    "value" : df["access_ja"][0]
-                })
+                value = df["access_ja"][0]
+            metadata.append({
+                "label" : "所在（所蔵機関）",
+                "value" : value
+            })
 
+            value = "None"
             if len(df["objects_ja"]) > 0:
-                metadata.append({
-                    "label" : "機械タグ",
-                    "value" : df["objects_ja"][0]
-                })
-
-            id = df["_id"]
+                value = df["objects_ja"][0]
+            metadata.append({
+                "label" : "機械タグ",
+                "value" : value
+            })
 
             label = df["title_ja"][0]
 
             thumbnail = images[0]
 
-            related = "https://dev.culutral.jp/item/"+id
+            related = "https://dev.cultural.jp/item/"+id
 
             member = {
                 "@id": related,

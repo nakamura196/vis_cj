@@ -132,17 +132,25 @@ with open(INPUT_FILE) as data_file:
 itemCount = len(items)
 print("Loaded " + str(itemCount) + " items...")
 
+def is_image_ok(fn):
+    try:
+        Image.open(fn)
+        return True
+    except:
+        return False
+
 # analyze colors
 for i, captureId in enumerate(items):
     if captureId:
         fileName = INPUT_IMAGE_DIR + captureId + "." + imageExt
-        # fileName = "../img/items/415904.jpg"
+        if not is_image_ok(fileName):
+            fileName = "img/black.jpg"
         weighted_colors = colorz(fileName, COLOR_GROUP_COUNT)
         hsl = []
         if len(weighted_colors) > 0:
             c = chooseColor(weighted_colors)
             hsl = [c.color.hue, c.color.saturation, c.color.luminance]
-            item_colors.append([hsl, c.weight])
+        item_colors.append([hsl, c.weight])
 
     sys.stdout.write('\r')
     sys.stdout.write(str(round(1.0*i/itemCount*100,3))+'%')
@@ -153,3 +161,4 @@ with open(OUTPUT_FILE, 'w') as outfile:
     json.dump(item_colors, outfile, ensure_ascii=False,
               indent=4, sort_keys=True, separators=(',', ': '))
 print("Wrote " + str(len(item_colors)) + " colors to " + OUTPUT_FILE)
+

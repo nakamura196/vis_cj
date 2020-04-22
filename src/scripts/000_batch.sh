@@ -1,4 +1,4 @@
-python 001_make_dump.py
+# python 001_make_dump.py
 # python 002_download_images.py
 python 003_get_captures.py
 python 004_get_metadata.py
@@ -10,7 +10,7 @@ python 007_stitch_images.py ../data/ /Users/nakamura/git/thumbnail/cj_vis/ ../..
 python 007_stitch_images.py ../data/ /Users/nakamura/git/thumbnail/cj_vis/ ../../docs/pd-visualization/img/ 100 10 10 基本区分 100 10 3 30000
 python 007_stitch_images.py ../data/ /Users/nakamura/git/thumbnail/cj_vis/ ../../docs/pd-visualization/img/ 100 10 10 収録データベース 100 10 3 30000
 python 007_stitch_images.py ../data/ /Users/nakamura/git/thumbnail/cj_vis/ ../../docs/pd-visualization/img/ 100 10 10 所在（所蔵機関） 100 10 3 30000
-thumbnail/cj_vis/ ../../docs/pd-visualization/img/ 100 10 10 機械タグ 100 10 3 30000
+python 007_stitch_images.py ../data/ /Users/nakamura/git/thumbnail/cj_vis/ ../../docs/pd-visualization/img/ 100 10 10 機械タグ 100 10 3 30000
 
 python 008_generate_metadata.py
 python 009_generate_labels.py ../data/ ../../docs/pd-visualization/js/labels.json 100 10 100 10 3 #####

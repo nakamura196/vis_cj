@@ -140,18 +140,21 @@ for g in groups:
             fileName = INPUT_IMAGE_DIR + captureId + "." + imageExt
             try:
                 im = Image.open(fileName)
-                im.thumbnail((ITEM_W, ITEM_H), Image.ANTIALIAS) # Image.NEAREST
-                imageBase.paste(im, (x, y))
-                # print "Pasted " + fileName
+                try:
+                    im.thumbnail((ITEM_W, ITEM_H), Image.ANTIALIAS) # Image.NEAREST
+                    imageBase.paste(im, (x, y))
+                    # print "Pasted " + fileName
 
-                sys.stdout.write('\r')
-                sys.stdout.write(str(round(1.0*count/itemCount*100,3))+'%')
-                sys.stdout.flush()
+                    sys.stdout.write('\r')
+                    sys.stdout.write(str(round(1.0*count/itemCount*100,3))+'%')
+                    sys.stdout.flush()
+                except:
+                    failCount += 1
             except IOError:
-                # print "Cannot read file: " + fileName
+                # print("Cannot read file: " + fileName)
                 failCount += 1
             except:
-                # print "Unexpected error:", sys.exc_info()[0]
+                # print("Unexpected error:", sys.exc_info()[0])
                 failCount += 1
                 raise
         else:

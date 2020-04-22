@@ -1,13 +1,13 @@
 [
     {
-        "count": 21627,
+        "count": 20666,
         "index": 0,
         "label": "ARC古典籍ポータルデータベース",
         "url": "",
         "value": "ARC古典籍ポータルデータベース"
     },
     {
-        "count": 51880,
+        "count": 108394,
         "index": 1,
         "label": "ARC浮世絵ポータルデータベース",
         "url": "",
@@ -21,25 +21,25 @@
         "value": "文化遺産オンライン"
     },
     {
-        "count": 2698,
+        "count": 1740,
         "index": 3,
         "label": "クリーブランド美術館オープンアクセスAPI",
         "url": "",
         "value": "クリーブランド美術館オープンアクセスAPI"
     },
     {
-        "count": 138,
+        "count": 8297,
         "index": 4,
-        "label": "past-exhibitions",
+        "label": "国立博物館所蔵品統合検索システム",
         "url": "",
-        "value": "past-exhibitions"
+        "value": "国立博物館所蔵品統合検索システム"
     },
     {
-        "count": 6102,
+        "count": 46468,
         "index": 5,
-        "label": "スタンフォード大学図書館SearchWorks",
+        "label": "国立国会図書館デジタルコレクション",
         "url": "",
-        "value": "スタンフォード大学図書館SearchWorks"
+        "value": "国立国会図書館デジタルコレクション"
     },
     {
         "count": 1031,
@@ -49,15 +49,43 @@
         "value": "ヨーロピアナAPI"
     },
     {
-        "count": 8597,
+        "count": 8247,
         "index": 7,
         "label": "ハーバード美術館API",
         "url": "",
         "value": "ハーバード美術館API"
     },
     {
-        "count": 39745,
+        "count": 27081,
         "index": 8,
+        "label": "ADEAC：デジタルアーカイブシステム (NDLサーチ経由)",
+        "url": "",
+        "value": "ADEAC：デジタルアーカイブシステム (NDLサーチ経由)"
+    },
+    {
+        "count": 14799,
+        "index": 9,
+        "label": "None",
+        "url": "",
+        "value": "None"
+    },
+    {
+        "count": 164,
+        "index": 10,
+        "label": "生態史写真資料",
+        "url": "",
+        "value": "生態史写真資料"
+    },
+    {
+        "count": 2703,
+        "index": 11,
+        "label": "国立美術館所蔵作品総合目録",
+        "url": "",
+        "value": "国立美術館所蔵作品総合目録"
+    },
+    {
+        "count": 37258,
+        "index": 12,
         "label": "東京大学学術資産等アーカイブズポータル",
         "url": "",
         "value": "東京大学学術資産等アーカイブズポータル"
