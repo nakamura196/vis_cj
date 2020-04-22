@@ -1,0 +1,65 @@
+[
+    {
+        "count": 21627,
+        "index": 0,
+        "label": "ARC古典籍ポータルデータベース",
+        "url": "",
+        "value": "ARC古典籍ポータルデータベース"
+    },
+    {
+        "count": 51880,
+        "index": 1,
+        "label": "ARC浮世絵ポータルデータベース",
+        "url": "",
+        "value": "ARC浮世絵ポータルデータベース"
+    },
+    {
+        "count": 16169,
+        "index": 2,
+        "label": "文化遺産オンライン",
+        "url": "",
+        "value": "文化遺産オンライン"
+    },
+    {
+        "count": 2698,
+        "index": 3,
+        "label": "クリーブランド美術館オープンアクセスAPI",
+        "url": "",
+        "value": "クリーブランド美術館オープンアクセスAPI"
+    },
+    {
+        "count": 138,
+        "index": 4,
+        "label": "past-exhibitions",
+        "url": "",
+        "value": "past-exhibitions"
+    },
+    {
+        "count": 6102,
+        "index": 5,
+        "label": "スタンフォード大学図書館SearchWorks",
+        "url": "",
+        "value": "スタンフォード大学図書館SearchWorks"
+    },
+    {
+        "count": 1031,
+        "index": 6,
+        "label": "ヨーロピアナAPI",
+        "url": "",
+        "value": "ヨーロピアナAPI"
+    },
+    {
+        "count": 8597,
+        "index": 7,
+        "label": "ハーバード美術館API",
+        "url": "",
+        "value": "ハーバード美術館API"
+    },
+    {
+        "count": 39745,
+        "index": 8,
+        "label": "東京大学学術資産等アーカイブズポータル",
+        "url": "",
+        "value": "東京大学学術資産等アーカイブズポータル"
+    }
+]
