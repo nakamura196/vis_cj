@@ -76,7 +76,7 @@ for i in range(len(files)):
 
             thumbnail = images[0]
 
-            related = "https://dev.cultural.jp/item/"+id
+            related = "https://cultural.jp/item/"+id
 
             member = {
                 "@id": related,
