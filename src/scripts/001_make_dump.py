@@ -52,7 +52,7 @@ for i in range(len(files)):
             if len(df["source_ja"]) > 0:
                 value = df["source_ja"][0]
             metadata.append({
-                "label" : "収録データベース",
+                "label" : "収録DB",
                 "value" : value
             })
 
@@ -60,7 +60,7 @@ for i in range(len(files)):
             if len(df["access_ja"]) > 0:
                 value = df["access_ja"][0]
             metadata.append({
-                "label" : "所在（所蔵機関）",
+                "label" : "所蔵機関",
                 "value" : value
             })
 
