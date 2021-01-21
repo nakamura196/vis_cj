@@ -25,9 +25,9 @@ MIN_GROUP_ROWS = int(sys.argv[7])
 labels = [
     {'id': 'colors', 'label': 'Color', 'markers': []},
     {'id': '基本区分', 'label': '基本区分', 'markers': []},
-    {'id': '収録データベース', 'label': '収録データベース', 'markers': []},
-    {'id': '所在（所蔵機関）', 'label': '所在（所蔵機関）', 'markers': []},
-    {'id': '機械タグ', 'label': '機械タグ', 'markers': []},
+    {'id': '収録DB', 'label': '収録DB', 'markers': []},
+    {'id': '所蔵機関', 'label': '所蔵機関', 'markers': []},
+    # {'id': '機械タグ', 'label': '機械タグ', 'markers': []},
 ]
 
 minGroupHeight = ITEM_H * MIN_GROUP_ROWS

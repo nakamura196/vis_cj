@@ -14,8 +14,10 @@ with open('../../.env.yml') as file:
 
 json_dir = yml["json_dir"]
 
-files = glob.glob(json_dir + "/converted/*/*.json")
+files = glob.glob(json_dir + "/converted/[!dignl]*/*.json")
 files = sorted(files)
+
+exs = ["cobas", "arc_nishikie", "arc_books", "utokyo_da"]
 
 selections = []
 
@@ -23,6 +25,11 @@ prefix = "https://nakamura196.github.io/vis_cj"
 
 for i in range(len(files)):
     file = files[i]
+
+    cid = file.split("/")[-2]
+
+    if cid in exs:
+        continue
 
     # メイン
     if i % 1000 == 0:

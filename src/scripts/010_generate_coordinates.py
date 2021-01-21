@@ -27,9 +27,9 @@ MIN_GROUP_ROWS = int(sys.argv[8])
 coords = {
     'colors': [],
     '基本区分': [],
-    '収録データベース': [],
-    '所在（所蔵機関）': [],
-    '機械タグ': []
+    '収録DB': [],
+    '所蔵機関': [],
+    # '機械タグ': []
 }
 
 def getItemsIds(the_group, the_items):

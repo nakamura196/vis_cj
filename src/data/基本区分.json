@@ -1,583 +1,555 @@
 [
     {
-        "count": 30317,
+        "count": 1981,
         "index": 0,
-        "label": "古書・古文書",
-        "url": "",
-        "value": "古書・古文書"
-    },
-    {
-        "count": 124206,
-        "index": 1,
-        "label": "版画",
-        "url": "",
-        "value": "版画"
-    },
-    {
-        "count": 28146,
-        "index": 2,
-        "label": "芸術・美術",
-        "url": "",
-        "value": "芸術・美術"
-    },
-    {
-        "count": 14945,
-        "index": 3,
-        "label": "絵画",
-        "url": "",
-        "value": "絵画"
-    },
-    {
-        "count": 963,
-        "index": 4,
-        "label": "絵画等",
-        "url": "",
-        "value": "絵画等"
-    },
-    {
-        "count": 23813,
-        "index": 5,
         "label": "歴史資料",
         "url": "",
         "value": "歴史資料"
     },
     {
+        "count": 17737,
+        "index": 1,
+        "label": "芸術・美術",
+        "url": "",
+        "value": "芸術・美術"
+    },
+    {
         "count": 2196,
-        "index": 6,
+        "index": 2,
         "label": "根付",
         "url": "",
         "value": "根付"
     },
     {
         "count": 983,
-        "index": 7,
+        "index": 3,
         "label": "印籠",
         "url": "",
         "value": "印籠"
     },
     {
-        "count": 17923,
-        "index": 8,
+        "count": 17743,
+        "index": 4,
         "label": "工芸",
         "url": "",
         "value": "工芸"
     },
     {
-        "count": 1004,
-        "index": 9,
+        "count": 489,
+        "index": 5,
         "label": "書跡",
         "url": "",
         "value": "書跡"
     },
     {
+        "count": 26648,
+        "index": 6,
+        "label": "版画",
+        "url": "",
+        "value": "版画"
+    },
+    {
         "count": 15,
-        "index": 10,
+        "index": 7,
         "label": "絵葉書",
         "url": "",
         "value": "絵葉書"
     },
     {
+        "count": 11529,
+        "index": 8,
+        "label": "絵画",
+        "url": "",
+        "value": "絵画"
+    },
+    {
         "count": 1006,
-        "index": 11,
+        "index": 9,
         "label": "素描",
         "url": "",
         "value": "素描"
     },
     {
-        "count": 2229,
-        "index": 12,
+        "count": 2227,
+        "index": 10,
         "label": "地図資料",
         "url": "",
         "value": "地図資料"
     },
     {
         "count": 1583,
-        "index": 13,
+        "index": 11,
         "label": "装飾・工芸",
         "url": "",
         "value": "装飾・工芸"
     },
     {
+        "count": 917,
+        "index": 12,
+        "label": "絵画等",
+        "url": "",
+        "value": "絵画等"
+    },
+    {
         "count": 228,
-        "index": 14,
+        "index": 13,
         "label": "屏風",
         "url": "",
         "value": "屏風"
     },
     {
-        "count": 3814,
-        "index": 15,
+        "count": 3488,
+        "index": 14,
         "label": "陶磁",
         "url": "",
         "value": "陶磁"
     },
     {
         "count": 74,
-        "index": 16,
+        "index": 15,
         "label": "扇",
         "url": "",
         "value": "扇"
     },
     {
         "count": 71,
-        "index": 17,
+        "index": 16,
         "label": "面",
         "url": "",
         "value": "面"
     },
     {
-        "count": 3900,
-        "index": 18,
+        "count": 3732,
+        "index": 17,
         "label": "刀剣",
         "url": "",
         "value": "刀剣"
     },
     {
         "count": 135,
-        "index": 19,
+        "index": 18,
         "label": "ポスター",
         "url": "",
         "value": "ポスター"
     },
     {
-        "count": 5234,
-        "index": 20,
+        "count": 5165,
+        "index": 19,
         "label": "染織",
         "url": "",
         "value": "染織"
     },
     {
         "count": 8205,
-        "index": 21,
+        "index": 20,
         "label": "写真",
         "url": "",
         "value": "写真"
     },
     {
         "count": 229,
-        "index": 22,
+        "index": 21,
         "label": "緒締",
         "url": "",
         "value": "緒締"
     },
     {
         "count": 32,
-        "index": 23,
+        "index": 22,
         "label": "旗",
         "url": "",
         "value": "旗"
     },
     {
-        "count": 991,
-        "index": 24,
+        "count": 457,
+        "index": 23,
         "label": "彫刻",
         "url": "",
         "value": "彫刻"
     },
     {
         "count": 106,
-        "index": 25,
+        "index": 24,
         "label": "家具",
         "url": "",
         "value": "家具"
     },
     {
         "count": 227,
-        "index": 26,
+        "index": 25,
         "label": "考古・民族",
         "url": "",
         "value": "考古・民族"
     },
     {
         "count": 82,
-        "index": 27,
+        "index": 26,
         "label": "鏡",
         "url": "",
         "value": "鏡"
     },
     {
         "count": 161,
-        "index": 28,
+        "index": 27,
         "label": "兜",
         "url": "",
         "value": "兜"
     },
     {
         "count": 7,
-        "index": 29,
+        "index": 28,
         "label": "拓本",
         "url": "",
         "value": "拓本"
     },
     {
-        "count": 712,
-        "index": 30,
+        "count": 341,
+        "index": 29,
         "label": "金工",
         "url": "",
         "value": "金工"
     },
     {
-        "count": 1166,
-        "index": 31,
+        "count": 555,
+        "index": 30,
         "label": "漆工",
         "url": "",
         "value": "漆工"
     },
     {
-        "count": 268,
-        "index": 32,
+        "count": 266,
+        "index": 31,
         "label": "建築",
         "url": "",
         "value": "建築"
     },
     {
         "count": 12,
-        "index": 33,
+        "index": 32,
         "label": "水彩",
         "url": "",
         "value": "水彩"
     },
     {
-        "count": 1694,
-        "index": 34,
+        "count": 1693,
+        "index": 33,
         "label": "図書",
         "url": "",
         "value": "図書"
     },
     {
         "count": 575,
-        "index": 35,
+        "index": 34,
         "label": "型紙",
         "url": "",
         "value": "型紙"
     },
     {
         "count": 37,
-        "index": 36,
+        "index": 35,
         "label": "木工",
         "url": "",
         "value": "木工"
     },
     {
         "count": 169,
-        "index": 37,
+        "index": 36,
         "label": "竹工芸",
         "url": "",
         "value": "竹工芸"
     },
     {
         "count": 544,
-        "index": 38,
+        "index": 37,
         "label": "デザイン",
         "url": "",
         "value": "デザイン"
     },
     {
         "count": 1516,
-        "index": 39,
+        "index": 38,
         "label": "武器",
         "url": "",
         "value": "武器"
     },
     {
         "count": 72,
-        "index": 40,
+        "index": 39,
         "label": "合本",
         "url": "",
         "value": "合本"
     },
     {
         "count": 108,
-        "index": 41,
+        "index": 40,
         "label": "宝石",
         "url": "",
         "value": "宝石"
     },
     {
         "count": 146,
-        "index": 42,
+        "index": 41,
         "label": "展覧会",
         "url": "",
         "value": "展覧会"
     },
     {
-        "count": 3691,
-        "index": 43,
-        "label": "記述情報",
-        "url": "",
-        "value": "記述情報"
-    },
-    {
-        "count": 1002,
-        "index": 44,
-        "label": "考古",
-        "url": "",
-        "value": "考古"
-    },
-    {
-        "count": 56,
-        "index": 45,
-        "label": "民族資料",
-        "url": "",
-        "value": "民族資料"
-    },
-    {
-        "count": 262,
-        "index": 46,
-        "label": "法隆寺宝物",
-        "url": "",
-        "value": "法隆寺宝物"
-    },
-    {
-        "count": 214,
-        "index": 47,
-        "label": "黒田記念館収蔵品",
-        "url": "",
-        "value": "黒田記念館収蔵品"
-    },
-    {
         "count": 84,
-        "index": 48,
+        "index": 42,
         "label": "資料一般",
         "url": "",
         "value": "資料一般"
     },
     {
         "count": 361,
-        "index": 49,
+        "index": 43,
         "label": "博物資料",
         "url": "",
         "value": "博物資料"
     },
     {
-        "count": 16504,
-        "index": 50,
+        "count": 842,
+        "index": 44,
         "label": "静止画資料",
         "url": "",
         "value": "静止画資料"
     },
     {
         "count": 304,
-        "index": 51,
+        "index": 45,
         "label": "出版物",
         "url": "",
         "value": "出版物"
     },
     {
         "count": 995,
-        "index": 52,
+        "index": 46,
         "label": "視聴覚記録",
         "url": "",
         "value": "視聴覚記録"
     },
     {
-        "count": 10325,
-        "index": 53,
+        "count": 9538,
+        "index": 47,
         "label": "文書資料",
         "url": "",
         "value": "文書資料"
     },
     {
         "count": 1863,
-        "index": 54,
+        "index": 48,
         "label": "科学写真",
         "url": "",
         "value": "科学写真"
     },
     {
         "count": 302,
-        "index": 55,
+        "index": 49,
         "label": "映像資料",
         "url": "",
         "value": "映像資料"
     },
     {
-        "count": 2073,
-        "index": 56,
+        "count": 1929,
+        "index": 50,
         "label": "記録写真",
         "url": "",
         "value": "記録写真"
     },
     {
         "count": 16203,
-        "index": 57,
+        "index": 51,
         "label": "標本",
         "url": "",
         "value": "標本"
     },
     {
         "count": 467,
-        "index": 58,
+        "index": 52,
         "label": "楽器",
         "url": "",
         "value": "楽器"
     },
     {
         "count": 733,
-        "index": 59,
+        "index": 53,
         "label": "動画資料",
         "url": "",
         "value": "動画資料"
     },
     {
+        "count": 38,
+        "index": 54,
+        "label": "記述情報",
+        "url": "",
+        "value": "記述情報"
+    },
+    {
         "count": 269,
-        "index": 60,
+        "index": 55,
         "label": "録音資料",
         "url": "",
         "value": "録音資料"
     },
     {
-        "count": 8639,
-        "index": 61,
+        "count": 3937,
+        "index": 56,
         "label": "植物標本",
         "url": "",
         "value": "植物標本"
     },
     {
         "count": 98,
-        "index": 62,
+        "index": 57,
         "label": "鉱物標本",
         "url": "",
         "value": "鉱物標本"
     },
     {
         "count": 18,
-        "index": 63,
+        "index": 58,
         "label": "楽譜",
         "url": "",
         "value": "楽譜"
     },
     {
         "count": 2425,
-        "index": 64,
+        "index": 59,
         "label": "人工物",
         "url": "",
         "value": "人工物"
     },
     {
         "count": 31,
-        "index": 65,
+        "index": 60,
         "label": "絵画類",
         "url": "",
         "value": "絵画類"
     },
     {
         "count": 92,
-        "index": 66,
+        "index": 61,
         "label": "楽器類",
         "url": "",
         "value": "楽器類"
     },
     {
         "count": 6,
-        "index": 67,
+        "index": 62,
         "label": "硬貨",
         "url": "",
         "value": "硬貨"
     },
     {
         "count": 248,
-        "index": 68,
+        "index": 63,
         "label": "切手",
         "url": "",
         "value": "切手"
     },
     {
         "count": 23,
-        "index": 69,
+        "index": 64,
         "label": "金工・武器",
         "url": "",
         "value": "金工・武器"
     },
     {
+        "count": 42,
+        "index": 65,
+        "label": "古書・古文書",
+        "url": "",
+        "value": "古書・古文書"
+    },
+    {
         "count": 72,
-        "index": 70,
+        "index": 66,
         "label": "馬具",
         "url": "",
         "value": "馬具"
     },
     {
-        "count": 1909,
-        "index": 71,
+        "count": 8,
+        "index": 67,
         "label": "雑誌・新聞・継続資料",
         "url": "",
         "value": "雑誌・新聞・継続資料"
     },
     {
         "count": 15,
-        "index": 72,
+        "index": 68,
         "label": "革細工",
         "url": "",
         "value": "革細工"
     },
     {
         "count": 27,
-        "index": 73,
+        "index": 69,
         "label": "七宝焼",
         "url": "",
         "value": "七宝焼"
     },
     {
+        "count": 110,
+        "index": 70,
+        "label": "考古",
+        "url": "",
+        "value": "考古"
+    },
+    {
         "count": 30,
-        "index": 74,
+        "index": 71,
         "label": "インスタレーション",
         "url": "",
         "value": "インスタレーション"
     },
     {
         "count": 3766,
-        "index": 75,
+        "index": 72,
         "label": "放送番組",
         "url": "",
         "value": "放送番組"
     },
     {
         "count": 14,
-        "index": 76,
+        "index": 73,
         "label": "映画",
         "url": "",
         "value": "映画"
     },
     {
         "count": 89,
-        "index": 77,
+        "index": 74,
         "label": "メディア芸術",
         "url": "",
         "value": "メディア芸術"
     },
     {
         "count": 36,
-        "index": 78,
+        "index": 75,
         "label": "演奏",
         "url": "",
         "value": "演奏"
     },
     {
         "count": 1375,
-        "index": 79,
+        "index": 76,
         "label": "雑誌",
         "url": "",
         "value": "雑誌"
     },
     {
         "count": 285,
-        "index": 80,
+        "index": 77,
         "label": "プログラム・ソフトウェア",
         "url": "",
         "value": "プログラム・ソフトウェア"
     },
     {
         "count": 10,
-        "index": 81,
+        "index": 78,
         "label": "新聞",
         "url": "",
         "value": "新聞"
-    },
-    {
-        "count": 56,
-        "index": 82,
-        "label": "個人・団体の文書資料",
-        "url": "",
-        "value": "個人・団体の文書資料"
     }
 ]
